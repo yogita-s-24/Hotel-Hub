@@ -1,13 +1,17 @@
 import React from 'react';
+import ReactDOM  from 'react';
 import './index.css';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+// import Navbar from './components/Navbar/Navbar';
+// import Footer from './components/Footer/Footer';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <>
- <Navbar/>
+ <h1>Hiii</h1>
 
- <Footer/>
+ {/* <Navbar/>
+
+ <Footer/> */}
  
  </>
 );
